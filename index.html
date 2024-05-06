@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+	<title>Ecuaciones de 2do Grado - 3er año - FyA</title>
+<meta name="description" content="Ecuaciones de Segundo Grado">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="referrer" content="always">
+
+<link rel="stylesheet" href="folder/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+  
+</head>
+
+<body id="bodybg">
+
+	<div id="stt"></div>
+	<div id="adTop"></div>
+	
+	<div id="extra"></div>
+
+<article id="content" role="main">
+	<audio autoplay>
+		<source src="folder/cancion.mp3" type="audio/mp3">
+		Tu navegador no soporta la reproducción de audio.
+	</audio>
+	<button id="pausarBtn">
+		<i class="fas fa-play"></i> <!-- Icono de Play -->
+		<i class="fas fa-pause"></i> <!-- Icono de Pausa -->
+	  </button>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			var audio = document.querySelector("audio");
+			var pausarBtn = document.getElementById("pausarBtn");
+
+			pausarBtn.addEventListener("click", function() {
+				if (audio.paused) {
+				audio.play(); // Si está pausado, lo reproducimos
+				pausarBtn.classList.remove("pausado"); // Quitamos la clase "pausado"
+				} else {
+				audio.pause(); // Si está reproduciéndose, lo pausamos
+				pausarBtn.classList.add("pausado"); // Agregamos la clase "pausado"
+				}
+			});
+		});
+
+	  </script>
+	  
+<div class="container">
+
+
+<!-- BANNER-->
+<div class="dj-banner">
+    <div class="dj-bg">
+        <img src="folder/imagen.png" alt="" width="100%">
+        
+    </div>            
+</div>
+
+<!-- Entre números y aventuras--> 
+
+<h1 class="center">Entre números y aventuras</h1>
+
+<p>Las matemáticas son una herramienta muy importante para la vida, pues son la clave del éxito en todos los campos y nos rodean por todas partes. Es por ellos que, las matemáticas son fundamentales para el desarrollo intelectual de los niños, niñas y adolescentes.</p>
+<p> <b>Reto matemático semanal:</b></p>
+<p>Antes de la clase, deben tomarse unos minutos para responder el siguiente reto: <b>El tiempo</b></p>
+<p>¿Tienes idea de cuánto es un millón de segundos?</p>
+<p>De las siguientes soluciones que se dan a continuación, ¿Cuál crees que se aproxima más a la verdadera?</p>
+<ul>
+	<li> Medio año</li>
+	<li> Once días y medio</li>
+	<li> Veintitrés horas</li>
+</ul>
+
+
+<!-- ECUACIONES DE SEGUNDO GRADO--> 
+
+<h1 class="center">Tema 2: Ecuaciones de Segundo Grado</h1> 
+
+<p>Las ecuaciones de segundo grado son como una puerta de entrada a un vasto paisaje de descubrimientos. ¿Qué son exactamente? Bueno, son ecuaciones que involucran términos al cuadrado, tales como <em>x<sup>2</sup></em>, y nos desafían a encontrar el valor o los valores de <em>x</em> que hacen que la ecuación sea verdadera.</p>
+
+<p>Un ejemplo de una <b>Ecuación de Segundo grado</b>:</p> 
+<p class="center"><img src="folder/quadratic-equation-reason.svg" alt="A Quadratic Equation 5x^2 + 3x + 3 = 0" height="63" width="285"></p> 
+ 
+<!-- FORMA ESTÁNDAR--> 
+<h2>Forma Estándar</h2> 
+
+<p>La <b>Forma Estándar</b> de las ecuaciones de Segundo Grado es la siguiente:</p> 
+<p class="center"><img src="folder/quadratic-equation.svg" alt="Quadratic Equation: ax^2 + bx + c = 0" height="33" width="301"><br></p> 
+<ul> 
+	<li><b>a</b>, <b>b</b> y <b>c</b> son valores conocidos. <b>a</b> no puede ser cero 0</li> 
+
+	<li><b>x</b> es la variable</b> o valor desconocido.</li> 
+</ul> 
+<p>&nbsp;</p> 
+<p>Algunos ejemplos de ecuaciones:</p> 
+<div class="simple">
+
+	<table style="border: 0; margin:auto;">
+		<tr>
+			<td class="larger" style="white-space: nowrap; text-align: right;"  ><b>2x<sup>2</sup> + 5x + 3 = 0</b></td>
+			<td style="width:20px;">&nbsp;</td>
+			<td>En este caso <b>a=2</b>, <b>b=5</b> y <b>c=3</b></td>
+		</tr>
+		<tr>
+			<td style="text-align: right;"  >&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="larger" style="text-align: right;"   ><b>x<sup>2</sup> − 3x = 0</b></td>
+			<td>&nbsp;</td>
+			<td > Este es un poquito más complicado: 
+<ul> 
+	<li>¿Dónde está <b>a</b>? En este caso <b>a=1</b>, ya que por lo general no se escribe "1x<sup>2</sup>"</li> 
+	<li><b>b = −3</b></li> 
+	<li>¿Y dónde está <b>c</b>? Bueno, <b>c=0</b>, ya que no está.</li> 
+</ul></td>
+		</tr>
+		<tr>
+			<td class="larger" style="text-align: right;"  ><b>5x − 3 = 0</b></td>
+			<td>&nbsp;</td>
+			<td><b>Oops!</b> Esta <b>no</b> es una ecuación de segundoi grado: ya que no se encuentra el término <b>x<sup>2</sup></b><br>
+</td>
+		</tr>
+	</table> 
+</div> 
+<p>&nbsp;</p> 
+
+
+<!-- ECUACIONES DE SEGUNDO GRADO DESORDENADAS-->
+<h2>Ecuaciones de 2do grado desordenadas:</h2> 
+
+<p>Como se mostró anteriormente, la <b>Forma Estándar</b> de una Ecuación de Segundo Grado es:</p> 
+<div class="def center larger"> 
+ax<sup>2</sup> + bx + c = 0 
+</div> 
+
+<p>Pero aveces las ecuaciones de segundo grado no se ven directamente de esa forma y queda como tarea nuestra el tener que ordenar la ecuación.</p> 
+<p>Por ejemplo:</p> 
+<div class="simple">
+
+	<table style="border: 0; margin:auto;">
+		<tr style="text-align:center;">
+			<th scope="col">Ecuación desordenada</th>
+			<th scope="col" class="large"><img src="folder/right-arrow.gif" alt="right arrow" height="46" width="46"></th>
+			<th scope="col">Forma Estándar</th>
+			<th scope="col">a, b y c</th>
+		</tr>
+		<tr style="text-align:center;">
+			<td ><b>x<sup>2</sup> = 3x − 1</b></td>
+			<td>Movemos todos los términos al lado izquierdo</td>
+			<td ><b>x<sup>2</sup> − 3x + 1 = 0</b></td>
+			<td>a=1, b=−3, c=1</td>
+		</tr>
+		<tr style="text-align:center;">
+			<td ><b>2(w<sup>2</sup> − 2w) = 5</b></td>
+			<td>Expandemos y movemos<br>
+el 5 al lado izquierdo</td>
+			<td ><b>2w<sup>2</sup> − 4w − 5 = 0</b></td>
+			<td>a=2, b=−4, c=−5</td>
+		</tr>
+		<tr style="text-align:center;">
+			<td ><b>z(z−1) = 3</b></td>
+			<td>Expandemos y movemos el 3 al lado izquierdo</td>
+			<td ><b>z<sup>2</sup> − z − 3 = 0</b></td>
+			<td>a=1, b=−1, c=−3</td>
+		</tr>
+	</table> 
+</div> 
+
+
+<!-- ¿CÓMO RESOLVERLAS?-->
+<h2>¿Cómo resolverlas las ecuaciones de Segundo Grado?</h2> 
+
+<div class="words"> 
+<p>Las "<b>soluciones</b>" de las ecuaciones de Segundo Grado son los valores de x que hacen que la ecuación sea <b>igual a cero</b>.</p> 
+<p>A estás soluciones también se les llama "<b>raícess</b>", o aveces "<b>ceros</b>"</p> 
+</div>
+<p style="float:left; margin: 0 10px 5px 0;"><img src="folder/quadratic-graph.svg" alt="Quadratic Graph" height="140" width="175"></p> 
+<p>&nbsp;</p> 
+<p>Por lo general se tendrán 2 soluciones (como se muestra en la gráfica).</p> 
+<p>&nbsp;</p> 
+<p>Y existen diferentes maneras de determinar esas soluciones:</p> 
+<div style="clear:both"></div>
+<div class="dotpoint"> Podemos Factorizar la ecuación. 
+</div> 
+
+<div class="dotpoint"> Realizar Completación de Cuadrados.
+</div> 
+
+<div class="dotpoint"> O podemos utilizar la <b>Formula Cuadrática</b>: 
+<p class="center"><img src="folder/quadratic-formula.svg" alt="Quadratic Formula: x = [ -b (+-) sqrt(b^2 - 4ac) ] / 2a" height="79" width="286"></p> 
+<p class="center">En donde simplemente se ingresan los valores de a, b y c, y se realizan los calculos.</p> 
+<p>Nosotros veremos este último método más en detalle.</p> 
+</div> 
+
+<!-- ACERCA DE LA FÓRMULA-->
+<h2>Acerca de la Fórmula</h2> 
+
+<h3>Más o menos</h3> 
+
+<p>En primer lugar, ¿qué es ese signo más/menos que parece <span class="largest">± </span>?</p> 
+<p class="so">El <span class="large">±</span> significa que podemos obtener DOS respuestas:</p> 
+<p class="center larger">x<sub>1 = <span class="intbl"> <em>−b <span class="hilite">+</span> √(b<sup>2 </sup>− 4ac)</em> <strong>/2a</strong> </span></p> 
+<p class="center larger">x<sub>2</sub> = <span class="intbl"> <em>−b <span class="hilite">−</span> √(b<sup>2 </sup>− 4ac)</em> <strong>/2a</strong></span></p> 
+<p>Pero no siempre tendremos dos respuestas,</p> 
+
+<p>Y allí es donde el "Discriminante" nos ayuda ...</p> 
+
+<!-- DISCRIMINANTE-->
+<h3>Discriminante</h3> 
+
+<p class="indent50px">¿Ves el <b>b<sup>2</sup> − 4ac</b> en la fórmula anterior? Se le llama <b>Discriminante</b>, ya que puede "discriminar" entre las posibles tipos de respuestas:</p> 
+<div class="bigul"> 
+<ul> 
+	<li class="indent50px">Cuando <b>b<sup>2</sup> − 4ac</b> es positivo, obtendremos 2 soluciones Reales</li> 
+	<li class="indent50px">Cuando es cero, obtendremos solo UNA solución Real (ya que a,bas respuestas serán lo mismo)</li> 
+	<li class="indent50px">Cuando es negativo, obtendremos un par de soluciones Complejas</li> 
+</ul> 
+</div> 
+
+<p class="indent50px"><i>¿Soluciones complejas?</i> Bueno ese es un tema que no abordaremos en la materia.</p> 
+<p>&nbsp;</p>
+
+<!-- USO DE LA FÓRMULA CUADRÁTICA-->
+<h3>Uso de la fórmula cuadrática</h3> 
+
+<p>Solo hay que colocar los valores de a, b y c en la Fórmula, y realizar los cálculos.</p> 
+
+<div class="example"> 
+	<h3>Ejemplo: Resolver 5x<sup>2</sup> + 6x + 1 = 0</h3> 
+
+	<div class="tbl"> 
+	<div class="row"><span class="left">Los coeficientes son: </span><span class="right">a = 5, b = 6, c = 1</span></div>
+<div class="row"><span class="left">La Fórmula Cuadrática: <br><img src="folder/quadratic-formula.svg" alt="Quadratic Formula: x = [ -b (+-) sqrt(b^2 - 4ac) ] / 2a" height="79" width="286"></div>
+<p></p>
+<div class="row"><span class="left">Colocando los valores de a, b y c: <br></span><span class="right"><span class="center">x = <span class="intbl"> <em>−6 ± √(6<sup>2 </sup>− 4×5×1)</em> <strong>/2×5</strong> </span></span> </span></div>
+<p></p>
+<div class="row"><span class="left">Resolvemos: <br></span><span class="right"><span class="center">x = <span class="intbl"> <em>−6 ± √(36− 20)</em> <strong>/10</strong> </span></span> </span></div>
+<div class="row"><span class="left">&nbsp;</span><span class="right"><span class="center">x = <span class="intbl"> <em>−6 ± √(16)</em> <strong>/10</strong> </span></span> </span></div>
+<div class="row"><span class="left">&nbsp;</span><span class="right"><span class="center">x = <span class="intbl"> <em>−6 ± 4</em> <strong>/10</strong> </span></span> </span></div>
+<div class="row"><span class="left">&nbsp;</span><span class="right">x = −0.2 <b>or</b> −1</span></div>
+</div> 
+
+
+<p class="larger center"><b>Respuesta: </b> x = −0.2 <b>y</b> x = −1</p> 
+
+<div style="clear:both"></div>
+<p>Comprobemos las respuestas:</p> 
+<div class="two">
+	<div class="lt">Para x = <b>&minus;0.2</b>:</div>
+	<div class="rt">5×(<b>−0.2</b>)<sup>2</sup> + 6×(<b>−0.2</b>) + 1<br>
+= 5×(0.04) + 6×(−0.2) + 1<br>
+= 0.2 − 1.2 + 1<br>
+<b>= 0</b><br></div>
+	<p></p>
+	<div class="lt">Para x = <b>&minus;1</b>:</div>
+	<div class="rt">5×(<b>−1</b>)<sup>2</sup> + 6×(<b>−1</b>) + 1<br>
+= 5×(1) + 6×(−1) + 1<br>
+= 5 − 6 + 1<br>
+<b>= 0</b></div>
+</div>
+
+
+	 
+</div> 
+
+<p>&nbsp;</p> 
+
+
+
+<!-- ¿SOLUCIONES COMPLEJAS?-->
+<h2>¿Soluciones complejas?</h2> 
+
+<p>Cuando el Discriminante (el valor <b>b<sup>2</sup> − 4ac</b>) es negativo, obtendremos dos soluciones Complejas ... ¿y qué significa esto?</p> 
+<p>Esto implica que las soluciones tendrán números imaginarios. Pero como se mencionó anteriormente, ese tema no nos corresponde abordarlo en este grado.</p> 
+
+
+<p>&nbsp;</p> 
+
+<!-- RESUMEN-->
+<h2>Resumen</h2> 
+
+<ul class="larger"> 
+	<li>La forma estándar de las ecuaciones de segundo grado es: ax<sup>2</sup> + bx + c = 0<br></li> 
+	<li>Las ecuaciones de segundo grado pueden factorizarse.<br></li> 
+	<li>La Fórmula Cuadrática es: <br><img src="folder/quadratic-formula.svg" alt="Quadratic Formula: x = [ -b (+-) sqrt(b^2 - 4ac) ] / 2a" height="79" width="286"></li> 
+	<li>Cuando el Discriminante es (<b>b<sup>2</sup>−4ac</b>) es: 
+	<ul> 
+		<li>positivo, existen 2 soluciones reales.</li> 
+		<li>cero, existe una solución real.</li> 
+		<li>negativo, existen 2 soluciones complejas.</li> 
+	</ul>
+	</li> 
+</ul>
+
+<!-- Videos del Profesor -->
+
+<h2>Vídeos del profesor</h2>
+
+<p>Ejercicio 1: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cPxfDom6NeQ?si=-qKuQJKTEhetK0M_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Ejercicio 2: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FpZZM4MFtrw?si=-zdeBxbEHM3UhIkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Ejercicio 3: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tiC-C8LMBtw?si=hAtPRe74c3b80q-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Ejercicio 4: </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7-dhjnCK-s4?si=3vl6AOdHKlaAzGH7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p></p>
+<!-- EJERCICIOS PROPUESTOS-->
+<h2>Ejercicio Propuestos</h2> 
+
+<p>Hallar las soluciones de las siguientes Ecuaciones de Segundo Grado:</p>
+
+<img src="folder/tarea.png" alt="tarea">
+
+</div>
+
+</body>
+<!-- Fin -->
+</html>

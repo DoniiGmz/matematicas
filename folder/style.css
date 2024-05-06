@@ -1,0 +1,142 @@
+.dj-banner{margin: 30px 0; position: relative;}
+   .dj-banner .dj-bg{background-image: url(/images/bg-img-banner.png); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+   .dj-banner .dj-bg img{display: block; margin: 20px auto; padding: 20px 0;}
+   .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+   @media screen and (min-width:768px){
+      .dj-banner .dj-bg img{margin-right: 100px;}
+      .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+      .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+      .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+   }
+
+
+
+   /* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Aumento de los márgenes laterales a 40px */
+}
+
+/* Estilos para encabezados */
+h1, h2, h3 {
+    color: #004d99; /* Azul oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para párrafos */
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #0066cc; /* Azul */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilos para secciones */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Estilos específicos */
+.dj-banner {
+    background-color: #e6f2ff; /* Azul claro */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.words {
+    float: left;
+    margin-right: 20px;
+}
+
+.dotpoint {
+    margin-bottom: 15px;
+}
+
+/* Media query para dispositivos pequeños */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+}
+
+#pausarBtn {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor a mano */
+    position: relative; /* Necesario para alinear los iconos */
+  }
+  #pausarBtn:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el mouse */
+  }
+  
+  #pausarBtn i {
+    position: absolute; /* Posición absoluta para superponer los íconos */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra el ícono */
+    display: none; /* Oculta los íconos por defecto */
+  }
+  
+  #pausarBtn i:first-child {
+    display: inline-block; /* Muestra el ícono de Play por defecto */
+  }
+  
+  #pausarBtn.pausado i:first-child {
+    display: none; /* Oculta el ícono de Play cuando está pausado */
+  }
+  
+  #pausarBtn.pausado i:last-child {
+    display: inline-block; /* Muestra el ícono de Pausa cuando está pausado */
+  }
+  
